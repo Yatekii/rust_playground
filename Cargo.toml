@@ -1,0 +1,11 @@
+[package]
+name = "rust_playground"
+version = "0.1.0"
+authors = ["Noah Hüsser <yatekii@yatekii.ch>"]
+
+[dev-dependencies]
+criterion = "0.2"
+
+[[bench]]
+name = "cell"
+harness = false
