@@ -3,9 +3,14 @@ name = "rust_playground"
 version = "0.1.0"
 authors = ["Noah Hüsser <yatekii@yatekii.ch>"]
 
+[dependencies]
+ncollide2d = "*"
+rand = "*"
+elapsed = "*"
+
 [dev-dependencies]
 criterion = "0.2"
 
 [[bench]]
-name = "cell"
+name = "bvt"
 harness = false
